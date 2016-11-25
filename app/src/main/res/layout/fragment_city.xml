@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/lC4437"
+        android:background="@drawable/lc4437"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/lC30017"
+        android:background="@drawable/lc30017"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/lC30018"
+        android:background="@drawable/lc30018"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/lC30220"
+        android:background="@drawable/lc30220"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/lC30222"
+        android:background="@drawable/lc30222"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

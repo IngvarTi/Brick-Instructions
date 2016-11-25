@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brick Instructions</string>
+    <string name="action_settings">Сказать Спасибо</string>
+    <string name="title_activity_basic">Базовые модели</string>
+    <string name="title_activity_basic_set">Базовые наборы</string>
+    <string name="title_activity_city">Сity Транспорт</string>
+    <string name="title_activity_creator_creature">Creator Создания</string>
+    <string name="title_activity_creat_transport">Creator Транспорт</string>
+    <string name="info">Информация</string>
+    <string name="pdf_show_local_progress_title">Загрузка pdf файла с сервера</string>
+    <string name="pdf_show_online_dialog_title">Открыть инструкцию в GoogleDrive ?</string>
+    <string name="pdf_show_online_dialog_question">На вашем устройстве не установлено программ поддерживающих формат pdf, инструкция Lego будет открыта с помощью облачного сервиса GoogleDrive.</string>
+    <string name="pdf_show_local_progress_content">Загрузка...</string>
+    <string name="pdf_show_online_dialog_button_no">Нет</string>
+    <string name="pdf_show_online_dialog_button_yes">Да</string>
+    <string name="ok">ОК</string>
+    <string name="setMessageTrue">Инструкции Lego хранятся на сервере в формате PDF.\n
+        На вашем устройстве установлен Adobe Reader(или другая программа для просмотра pdf файлов), инструкции будут загружаться в память устройства по одной при открытии.\n
+        Вы можете скачать все инструкций (243 МБ) нажав кнопку "Загрузить"</string>
+    <string name="setMessageFalse">Инструкции Lego хранятся на сервере в формате PDF.\n
+        На вашем устройстве отсутствуют программы для чтения PDF, инструкции будут открываться при помощи браузера в облачном сервисе Google Drive.\n
+        Чтобы иметь возможность загружать инструкции в память устройства установите программу для чтения PDF.</string>
+    <string name="powered">powered by Igor Tytarenko</string>
+    <string name="hasvisited">hasVisited</string>
+    <string name="rateuri">market://details?id=com.mittereflores.brickinstructions</string>
+    <string name="vc">1.7</string>
+    <string name="disclaimer">Отказ от ответсвенности</string>
+    <string name="disclaimerText">LEGO® – это товарный знак компании LEGO Group, которая не создавала, не санкционировала и не одобряла данное приложение. Компания LEGO Group владеет авторскими правами на инструкции по сборке, публикации и фотографии, используемые в приложении.</string>
+    <string name="noInternet">Интернет не доступен</string>
+    <string name="download">Загрузить все инструкции</string>
+    <string name="cancel">Отмена</string>
+    <string name="title_activity_star_wars">Звёздные войны</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6526618984663462/8928782636</string>
+
+</resources>

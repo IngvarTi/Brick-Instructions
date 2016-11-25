@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mittereflores.brickinstructions.MainActivity"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:background="@drawable/background"
+    android:id="@+id/mainLayout">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView2"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_vertical_margin_main_phone"
+            android:paddingRight="@dimen/activity_vertical_margin_main_phone">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/butBasic"
+                android:elevation="4dp"
+                android:clickable="true"
+                android:onClick="onClickBasicModel"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:layout_width="@dimen/main_image_size"
+                    android:layout_height="@dimen/main_image_size"
+                    android:id="@+id/imButBasic"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/basic_model"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/title_activity_basic"
+                    android:id="@+id/textView"
+                    android:textSize="25sp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#ffffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/butBasicSet"
+                android:elevation="4dp"
+                android:onClick="onClickBasicSet">
+
+                <ImageButton
+                    android:layout_width="@dimen/main_image_size"
+                    android:layout_height="@dimen/main_image_size"
+                    android:id="@+id/imButBasicSet"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/basic_set"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/title_activity_basic_set"
+                    android:id="@+id/textView2"
+                    android:background="#ffffffff"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/butCity"
+                android:elevation="4dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClickCity">
+
+                <ImageButton
+                    android:layout_width="@dimen/main_image_size"
+                    android:layout_height="@dimen/main_image_size"
+                    android:id="@+id/imButCity"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/city"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/title_activity_city"
+                    android:id="@+id/textView3"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#ffffffff"
+                    android:layout_weight="1"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/butCreatCreature"
+                android:elevation="4dp"
+                android:onClick="onClickCreatorCreature">
+
+                <ImageButton
+                    android:layout_width="@dimen/main_image_size"
+                    android:layout_height="@dimen/main_image_size"
+                    android:id="@+id/imButCreatCreature"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/creator_creature"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/title_activity_creator_creature"
+                    android:id="@+id/textView5"
+                    android:background="#ffffffff"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/butCreatTransport"
+                android:elevation="4dp"
+                android:onClick="onClickCreatTransport"
+                android:layout_marginBottom="10dp">
+
+                <ImageButton
+                    android:layout_width="@dimen/main_image_size"
+                    android:layout_height="@dimen/main_image_size"
+                    android:id="@+id/imButCreatTransport"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/creator_transport"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/title_activity_creat_transport"
+                    android:id="@+id/textView4"
+                    android:background="#ffffffff"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/butStarWars"
+                android:elevation="4dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="onClickStarWars">
+
+                <ImageButton
+                    android:layout_width="@dimen/main_image_size"
+                    android:layout_height="@dimen/main_image_size"
+                    android:id="@+id/imButStarWars"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/starwars"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/title_activity_star_wars"
+                    android:id="@+id/textView6"
+                    android:background="#ffffffff"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

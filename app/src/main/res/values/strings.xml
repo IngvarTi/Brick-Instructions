@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brick Instructions</string>
+    <string name="action_settings">Say thanks</string>
+    <string name="title_activity_basic">Basic Model</string>
+    <string name="title_activity_basic_set">Basic Set</string>
+    <string name="title_activity_city">City Transport</string>
+    <string name="title_activity_creator_creature">Creator Creature</string>
+    <string name="title_activity_creat_transport">Creator Transport</string>
+    <string name="info">Information</string>
+    <string name="pdf_show_local_progress_title">Downloading pdf file from the server</string>
+    <string name="pdf_show_online_dialog_title">Open instruction in GoogleDrive ?</string>
+    <string name="pdf_show_online_dialog_question">On your device not installed the program supports the format of pdf, Lego instruction will be opened with the help of cloud service GoogleDrive.</string>
+    <string name="pdf_show_local_progress_content">Downloading...</string>
+    <string name="pdf_show_online_dialog_button_no">No</string>
+    <string name="pdf_show_online_dialog_button_yes">Yes</string>
+    <string name="ok">ОК</string>
+    <string name="setMessageTrue">Lego instructions stored on a server in PDF format.\n
+        In your device installed Adobe Reader (or another program to view PDF files), instructions will be downloaded to your device when you open one by one.\n
+        You can download all instructions (243 MB) by clicking the "Download"</string>
+    <string name="setMessageFalse">Lego instructions stored on a server in PDF format.\n
+        In your device does not have a program for reading PDF, instructions will be opened with a browser in the cloud service Google Drive.\n
+        To be able to download instructions to the device memory, set the program to read PDF.</string>
+    <string name="powered">powered by Igor Tytarenko</string>
+    <string name="hasvisited">hasVisited</string>
+    <string name="rateuri">market://details?id=com.mittereflores.brickinstructions</string>
+    <string name="vc">1.7</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimerText">LEGO® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this application. The LEGO Group owns the copyrights to its building instructions, publications and to the photographs used in this application.</string>
+    <string name="noInternet">Internet is Not available</string>
+    <string name="download">Download all instructions</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_star_wars">Star Wars</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6526618984663462/8928782636</string>
+
+
+</resources>

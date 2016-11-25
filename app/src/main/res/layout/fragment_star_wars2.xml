@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/sw75030"
+        android:background="@drawable/sw75030"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/sw75031"
+        android:background="@drawable/sw75031"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/sw75032"
+        android:background="@drawable/sw75032"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/sw75033"
+        android:background="@drawable/sw75033"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/sw75034"
+        android:background="@drawable/sw75034"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/sw75035"
+        android:background="@drawable/sw75035"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/sw75075"
+        android:background="@drawable/sw75075"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

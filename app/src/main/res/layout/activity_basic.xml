@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mittereflores.brickinstructions.BasicActivity"
+    android:id="@+id/BasicLayout"
+    android:background="@drawable/background"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+        <fragment
+            android:id="@+id/fragment1"
+            android:name="com.mittereflores.brickinstructions.Fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment1" />
+
+        <fragment
+            android:id="@+id/fragment2"
+            android:name="com.mittereflores.brickinstructions.Fragment2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment2" />
+
+        <fragment
+            android:id="@+id/fragment3"
+            android:name="com.mittereflores.brickinstructions.Fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment3" />
+
+        <fragment
+            android:id="@+id/fragment4"
+            android:name="com.mittereflores.brickinstructions.Fragment4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment4" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
